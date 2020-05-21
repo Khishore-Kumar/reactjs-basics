@@ -15,6 +15,7 @@ export default class Product extends React.Component{
     render(){
         return(
             <div>
+                <h3>Khishore's Site</h3>
                 <p>{this.props.name} - ${this.props.price}</p>
                 <button onClick={()=>this.buy()}>Add</button>
                 <button onClick={()=>this.show()}>Show</button>
