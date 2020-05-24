@@ -39,6 +39,7 @@ export default class ProductList extends React.Component {
 
         return(
             <div>
+            <h2>Khishore's Site</h2>
             <ProductForm handleCreate={(product)=>this.createProduct(product)}/>
             {products}
             <Total total={this.state.total}/>
